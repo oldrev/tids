@@ -6,7 +6,7 @@ English | [简体中文](README.zh_cn.md)
 This is a Typst template for creating TI-style datasheets for electronic components.
 You can use this template to conveniently document and share detailed information about electronic components.
 
-[Open PDF](demo-ds.pdf?raw=true)
+![Demo](gallery/demo.png)
 
 ## Features
 

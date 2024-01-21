@@ -9,35 +9,36 @@
 )
 
 #let features = [
-    - Capacity: 1.21 gigawatts
-    - Operating Voltage: 88 billion volts
-    - Dimensions: Standard size, suitable for most electronic devices
-    - Material: Advanced alloys and insulating materials
-    - Frequency Response: Exceeds 1.21 kilohertz
-    - Temperature Range: -40°C to 150°C
-    - Stability: High stability, suitable for extreme environments
+    - 容量： 1.21 GC
+    - 输入电压： 88 kV
+    - 封装：提供 QFN-24 和 BGA-19999 封装
+    - 材料：先进钽合金半导体
+    - 频率响应超过 1.21 PHz
+    - 温度范围： -40°C 到 65535°C
+    - 稳定性： 高度稳定，适用于极端环境
+    - 输出电容支持多层陶瓷电容
 ]
 
 
 #let applications = [
 
-    The FXC1117 Flux Capacitor is an advanced electronic component widely used in the following fields:
-
-    - Time travel technology
-    - Energy conversion
-    - Electronics enhancement
-    - Space deformation techniques
-    - Quantum communication
+    通量电容器是一种先进的电子元件，广泛应用于以下领域：
+    - 时间旅行技术
+    - 能源转换
+    - 电子设备优化
+    - 空间变形技术
+    - 量子通信
+    - 军事渗透用人形终结者
 
     #figure(
-        rect(image("./assets/741.svg"), stroke: 0.5pt), caption: "Typical Application"
+        rect(image("./assets/741.svg"), stroke: 0.5pt), caption: "典型应用电路"
     )
 ]
 
 #let desc = [
-    The Flux Capacitor is a revolutionary electronic technology utilizing advanced alloys and insulating materials, enabling it to operate in extreme conditions. Its high capacity and operating voltage make it an ideal choice for time travel technology and energy conversion fields.
+通量电容器是一项革命性的电子技术，利用先进的合金和绝缘材料，使其能够在极端条件下运作。其高容量和高工作电压使其成为时间旅行技术和能源转换领域的理想选择。
 
-    Additionally, Flux Capacitors can be applied in electronics enhancement, space deformation techniques, and quantum communication. Their stability and frequency response make them an innovative product in the future of electronic components.
+此外，通量电容器还可以应用于电子设备优化、空间变形技术和量子通信等领域。其稳定性和频率响应使其成为未来电子元件领域中的创新产物。
 ]
 
 #let rev_list = (
@@ -63,17 +64,17 @@
     doc: doc
 )
 
-= Specifications
+= 硬件规格
 
-== Pin Configuration and Functions
-<PinConfigAndFunctions>
-
-#lorem(30)
+== 接口与功能
+<接口与功能>
 
 #lorem(30)
 
-== Specifications
-<Specifications>
+#lorem(30)
+
+== 电气规格
+<电气规格>
 
 #figure(
     tablex(
@@ -97,8 +98,9 @@
     caption: [电气规格表]
 )
 
-== Absolute Maximum Ratings
-<AbsoluteMaximumRatings>
+== 绝对最大额定值
+<绝对最大额定值>
+在超过绝对最大额定值范围内的情况下使用设备可能造成设备永久损坏。
 
 #figure(
     tablex(
@@ -116,63 +118,59 @@
     caption: [绝对最大额定值表],
 )
 
-#warning(title: "Warning")[
-    Before start it you must be sure you have enough garbage.
+#warning(title: "警告")[
+    接入电源之前请先确认电源电压正常、已良好接地且正负极接线正确，否则可能造成设备烧毁或人身伤害。
 ]
 
 
 #pagebreak()
 
-= Detailed Description
-<DetailedDescription>
+= 详细说明
+<详细说明>
 
-== Overview
-
-#lorem(200)
+== 总览
 
 #lorem(200)
 
-== Functional Block Diagram
-
 #lorem(200)
 
-#pagebreak()
-
-= Application and Implementation
-
-=== Application Information
-
-#lorem(200)
-
-=== Typical Applications
-
-#lorem(200)
-
-=== Design Requirements
-
-#lorem(200)
-
-= Power Supply Recommendations
-
-#lorem(200)
-
-=== PCB Layout
+== 功能框图
 
 #lorem(200)
 
 #pagebreak()
 
-= Device and Documentation Support
+= 应用与实现
 
-=== Device Support
+=== 应用信息
 
-=== Related Links
+#lorem(200)
+
+=== 典型应用
+
+#lorem(200)
+
+=== 推荐外围设备
+
+#lorem(200)
+
+=== PCB 布局指南
 
 #lorem(200)
 
 #pagebreak()
 
-= Mechanical, Packaging, and Orderable Information
+= 设备与文档支持
+
+=== 设备与技术支持
+
+=== 技术支持资源
+
+#lorem(200)
+
+#pagebreak()
+
+= 机械外形、封装与订购信息
 
 #lorem(30)
 

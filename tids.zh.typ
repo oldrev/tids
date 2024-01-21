@@ -2,7 +2,7 @@
 #import "@preview/cetz:0.1.2": canvas, plot
 
 #let company_info = (
-    name:           "Mingshu Semiconductors Inc.",
+    name:           "命数半导电股份有限公司",
     logo:           "./assets/demo-logo.svg",
     website_url:    "https://github.com/oldrev",
 )
@@ -40,6 +40,7 @@
     let lastest_rev = rev_list.first()
 
     let outline_page() = {
+        // 内容太多就把这里 40% 调大
         [
             #block(height: 40%, [
                 #columns(2, gutter: 30pt)[
@@ -238,8 +239,8 @@
 
 #colbreak()
 
-= Description
-<Description>
+= 产品简介
+<产品简介>
 
 #desc
 
