@@ -15,8 +15,9 @@ This is an open-source project created solely for demonstration purposes, with n
 
 ## Features
 
-- **Simple and User-friendly:** Uses Markdown format for easy readability and writing.
+- **Simple and User-friendly:** Uses Typst format for easy readability and writing.
 - **Customizable:** Can be customized for specific component specifications.
+- **Fast Compilation**: It only takes one or two seconds to generate the PDF, as opposed to LaTeX, which may take several minutes or even longer.
 
 ## Getting Started
 
