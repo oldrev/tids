@@ -2,7 +2,7 @@
 
 English | [简体中文](README.zh_cn.md)
 
-This project is a easy to use Typst electronic component datasheet template purposed 
+This project is an easy to use Typst electronic component datasheet template purposed 
 for testing and showcasing the potential of using Typst for technical documentation writing.
 
 ![Demo](gallery/demo.png)

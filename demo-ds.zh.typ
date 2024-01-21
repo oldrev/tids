@@ -1,9 +1,9 @@
-#import "tids.typ": tids, ds_tablex_styles
+#import "tids.zh.typ": tids, ds_tablex_styles
 #import "@preview/gentle-clues:0.6.0": warning
 #import "@preview/tablex:0.0.8": tablex, hlinex, vlinex, colspanx, rowspanx
 
 #let metadata = (
-    title: [FXC1117 Flux Capacitor],
+    title: [FXC1117 通量电容器],
     product: "FXC1117",
     product_url: "https://github.com/oldrev/tids",
 )

@@ -44,13 +44,13 @@
         [
             #block(height: 40%, [
                 #columns(2, gutter: 30pt)[
-                    #outline(title: "Contents", depth: 3)
+                    #outline(title: "目录", depth: 3)
                 ]
             ])
 
             #line(length: 100%, stroke: 1pt)
 
-            = Revisions
+            = 修订记录
 
             <Revisions>
 
@@ -121,24 +121,24 @@
         set heading(numbering: none)
 
         [
-            = Indexing
+            = 文档索引
 
             #box(height: auto, [
                 #columns(2, gutter: 30pt)[
                     #outline(
-                        title: [Figures],
+                        title: [图表],
                         target: figure.where(kind: image),
                     )
                     #colbreak()
                     #outline(
-                        title: [Tables],
+                        title: [表格],
                         target: figure.where(kind: table),
                     )
                 ]
                 #line(length: 100%, stroke: 1pt)
             ])
 
-            = Legal Disclaimer Notice
+            = 版权及法律信息
 
             #lorem(30)
 
@@ -227,12 +227,12 @@
     box(height: auto,
         columns(2, gutter: 30pt)[
 
-= Features
+= 特性
 <TitlePageFeatures>
 
 #features
 
-= Applications
+= 用途
 <TitlePageApplications>
 
 #applications
@@ -255,7 +255,7 @@
             domain: (-calc.pi, calc.pi), x => calc.sin(x * 1rad))
         })
     })
-    ), caption: [Awesome Performance])
+    ), caption: [超级性能])
 
     ])
 
