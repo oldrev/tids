@@ -29,9 +29,9 @@
    ```
 3. 构建示例 PDF 文件：
     ```bash
-    typst compile demo-ds.typ
+    typst compile demo-ds.zh.typ
     ```
-4. 赏玩生成的 [`demo-ds.pdf`](demo-ds.pdf) PDF 文件。
+4. 赏玩生成的 [`demo-ds.zh.pdf`](demo-ds.zh.pdf) PDF 文件。
 
 ## 使用
 
@@ -55,7 +55,7 @@
     )
     // ... The content of your document
     ```
-    See [`demo-ds.typ`](demo-ds.typ) for details.
+    See [`demo-ds.zh.typ`](demo-ds.zh.typ) for details.
 
 
 ## 演示视频
