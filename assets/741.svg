@@ -1,0 +1,638 @@
+<?xml version='1.0'?>
+<!-- created using Vector Blocks (http://bretmulvey.com/VectorBlocks) -->
+<svg xmlns='http://www.w3.org/2000/svg' width='832.10546875' height='514'>
+    <g stroke='#000' stroke-width='2'>
+        <path d='m 488,77 16,0' />
+        <path d='m 520,77 80,0' />
+        <path d='m 456,125 48,0' />
+        <path d='m 168,13 16,0' />
+        <path d='m 200,13 144,0' />
+        <path d='m 360,13 80,0' />
+        <path d='m 456,13 176,0' />
+        <path d='m 648,13 96,0' />
+        <path d='m 760,13 32,0' />
+        <path d='m 248,61 64,0' />
+        <path d='m 104,109 48,0' />
+        <path d='m 168,109 16,0' />
+        <path d='m 200,109 32,0' />
+        <path d='m 200,285 48,0' />
+        <path d='m 264,285 80,0' />
+        <path d='m 584,285 48,0' />
+        <path d='m 136,237 16,0' />
+        <path d='m 168,237 16,0' />
+        <path d='m 200,237 16,0' />
+        <path d='m 104,477 64,0' />
+        <path d='m 184,477 64,0' />
+        <path d='m 264,477 80,0' />
+        <path d='m 360,477 80,0' />
+        <path d='m 456,477 48,0' />
+        <path d='m 520,477 48,0' />
+        <path d='m 584,477 48,0' />
+        <path d='m 648,477 96,0' />
+        <path d='m 760,477 32,0' />
+        <path d='m 760,269 32,0' />
+        <path d='m 408,349 32,0' />
+        <path d='m 648,349 64,0' />
+        <path d='m 696,253 48,0' />
+        <path d='m 728,189 16,0' />
+        <path d='m 648,141 32,0' />
+        <path d='m 696,141 16,0' />
+        <path d='m 520,157 48,0' />
+        <path d='m 584,157 48,0' />
+        <path d='m 584,221 16,0' />
+        <path d='m 520,333 16,0' />
+        <path d='m 104,317 16,0' />
+        <path d='m 264,317 80,0' />
+        <path d='m 360,317 80,0' />
+        <path d='m 456,317 48,0' />
+        <path d='m 136,381 16,0' />
+        <path d='m 184,381 32,0' />
+        <path d='m 584,381 16,0' />
+        <path d='m 56,413 32,0' />
+        <path d='m 264,413 32,0' />
+        <path d='m 552,413 16,0' />
+        <path d='m 584,413 48,0' />
+        <path d='m 512,85 0,32' />
+        <path d='m 512,165 0,48' />
+        <path d='m 512,261 0,48' />
+        <path d='m 512,341 0,48' />
+        <path d='m 512,437 0,32' />
+        <path d='m 448,21 0,32' />
+        <path d='m 448,101 0,16' />
+        <path d='m 448,133 0,64' />
+        <path d='m 448,245 0,64' />
+        <path d='m 448,325 0,16' />
+        <path d='m 448,357 0,16' />
+        <path d='m 448,421 0,48' />
+        <path d='m 640,21 0,32' />
+        <path d='m 640,101 0,32' />
+        <path d='m 640,165 0,32' />
+        <path d='m 640,245 0,32' />
+        <path d='m 640,293 0,48' />
+        <path d='m 752,21 0,96' />
+        <path d='m 752,165 0,16' />
+        <path d='m 752,373 0,96' />
+        <path d='m 160,21 0,80' />
+        <path d='m 160,117 0,112' />
+        <path d='m 160,245 0,48' />
+        <path d='m 160,341 0,32' />
+        <path d='m 352,21 0,16' />
+        <path d='m 352,85 0,192' />
+        <path d='m 352,293 0,16' />
+        <path d='m 352,325 0,48' />
+        <path d='m 192,21 0,16' />
+        <path d='m 192,85 0,16' />
+        <path d='m 192,245 0,32' />
+        <path d='m 240,69 0,32' />
+        <path d='m 256,117 0,16' />
+        <path d='m 256,181 0,32' />
+        <path d='m 256,261 0,16' />
+        <path d='m 256,293 0,16' />
+        <path d='m 256,325 0,32' />
+        <path d='m 96,117 0,16' />
+        <path d='m 96,181 0,32' />
+        <path d='m 96,261 0,48' />
+        <path d='m 96,325 0,32' />
+        <path d='m 688,149 0,16' />
+        <path d='m 688,213 0,32' />
+        <path d='m 576,293 0,16' />
+        <path d='m 576,357 0,16' />
+        <path d='m 576,389 0,16' />
+        <path d='m 400,357 0,32' />
+        <path d='m 176,389 0,16' />
+        <path d='m 176,453 0,16' />
+    </g>
+    <g transform='translate(-1016 -795)' style='font-family: Sans-Serif' stroke-width='2' stroke='#000' fill='none'>
+        <g transform='translate(1056, 1200) matrix(-1, 0, 0, -1, 16, 16)'>
+            <path d='m 0,8 5,0' />
+            <circle fill='#FFF' cy='8' cx='8' r='3' />
+        </g>
+        <text stroke='none' fill='#000' x='1064' y='1197' style='font-size: 10pt;text-anchor: middle;font-weight: normal;'>1</text>
+        <text stroke='none' fill='#000' x='1064' y='1229' style='font-size: 10pt;text-anchor: middle;font-weight: normal;'>Offset</text>
+        <text stroke='none' fill='#000' x='1064' y='1245' style='font-size: 10pt;text-anchor: middle;font-weight: normal;'>null</text>
+        <g transform='translate(1104, 1200) matrix(-1, 0, 0, -1, 16, 16)'>
+            <path d='m 8,0 0,16' />
+            <path d='m 8,8 8,0' />
+            <circle fill='#000' stroke='none' cy='8' cx='8' r='3' />
+        </g>
+        <g transform='translate(1104, 1216) matrix(0, -1, 1, 0, 0, 48)'>
+            <path d='m 0,8 12,0 2,4 4,-8 4,8 4,-8 4,8 4,-8 2,4 12,0' />
+        </g>
+        <text stroke='none' fill='#000' x='1128' y='1245' style='font-size: 10pt;text-anchor: middle;font-weight: normal;'>1k</text>
+        <g transform='translate(1104, 1264) matrix(0, -1, 1, 0, 0, 16)'>
+            <path d='m 8,16 0,-8 8,0' />
+        </g>
+        <g transform='translate(1104, 1152) matrix(-1, 0, 0, 1, 48, 0)'>
+            <circle fill='white' cy='24' cx='29' r='23' />
+            <line y2='38' y1='10' x2='23' x1='23' stroke-width='4' />
+            <path d='m 0,24 23,0' />
+            <path d='m 40,0 0,9 -18,9' />
+            <path d='m 40,48 0,-9 -18,-9' />
+            <path fill='#000' stroke='none' d='m 40,39 -6,-8 -4,8 10,0' />
+        </g>
+        <g transform='translate(1136, 1088)'>
+            <circle fill='white' cy='24' cx='29' r='23' />
+            <line y2='38' y1='10' x2='23' x1='23' stroke-width='4' />
+            <path d='m 0,24 23,0' />
+            <path d='m 40,0 0,9 -18,9' />
+            <path d='m 40,48 0,-9 -18,-9' />
+            <path fill='#000' stroke='none' d='m 40,39 -6,-8 -4,8 10,0' />
+        </g>
+        <g transform='translate(1104, 1104)'>
+            <path d='m 8,0 0,16' />
+            <path d='m 8,8 8,0' />
+            <circle fill='#000' stroke='none' cy='8' cx='8' r='3' />
+        </g>
+        <g transform='translate(1168, 1168) matrix(0, -1, 1, 0, 0, 16)'>
+            <path d='m 8,0 0,16' />
+            <path d='m 8,8 8,0' />
+            <circle fill='#000' stroke='none' cy='8' cx='8' r='3' />
+        </g>
+        <g transform='translate(1184, 1168) matrix(0, 1, -1, 0, 16, 0)'>
+            <path d='m 8,0 0,16' />
+            <path d='m 8,8 8,0' />
+            <circle fill='#000' stroke='none' cy='8' cx='8' r='3' />
+        </g>
+        <g transform='translate(1184, 1200) matrix(0, -1, 1, 0, 0, 48)'>
+            <path d='m 0,8 12,0 2,4 4,-8 4,8 4,-8 4,8 4,-8 2,4 12,0' />
+        </g>
+        <text stroke='none' fill='#000' x='1200' y='1229' style='font-size: 10pt;text-anchor: start;font-weight: normal;'>50k</text>
+        <g transform='translate(1184, 1264) matrix(0, -1, 1, 0, 0, 16)'>
+            <path d='m 8,0 0,16' />
+            <path d='m 8,8 8,0' />
+            <circle fill='#000' stroke='none' cy='8' cx='8' r='3' />
+        </g>
+        <g transform='translate(1264, 1264) matrix(0, -1, 1, 0, 0, 16)'>
+            <path d='m 8,0 0,16' />
+            <path d='m 8,8 8,0' />
+            <circle fill='#000' stroke='none' cy='8' cx='8' r='3' />
+        </g>
+        <g transform='translate(1232, 1152)'>
+            <circle fill='white' cy='24' cx='29' r='23' />
+            <line y2='38' y1='10' x2='23' x1='23' stroke-width='4' />
+            <path d='m 0,24 23,0' />
+            <path d='m 40,0 0,9 -18,9' />
+            <path d='m 40,48 0,-9 -18,-9' />
+            <path fill='#000' stroke='none' d='m 40,39 -6,-8 -4,8 10,0' />
+        </g>
+        <g transform='translate(1264, 1200)'>
+            <path d='m 8,0 0,16' />
+            <path d='m 8,8 8,0' />
+            <circle fill='#000' stroke='none' cy='8' cx='8' r='3' />
+        </g>
+        <g transform='translate(1264, 1216) matrix(0, -1, 1, 0, 0, 48)'>
+            <path d='m 0,8 12,0 2,4 4,-8 4,8 4,-8 4,8 4,-8 2,4 12,0' />
+        </g>
+        <text stroke='none' fill='#000' x='1280' y='1245' style='font-size: 10pt;text-anchor: start;font-weight: normal;'>1k</text>
+        <text stroke='none' fill='#000' x='1320' y='1229' style='font-size: 10pt;text-anchor: middle;font-weight: normal;'>Offset</text>
+        <text stroke='none' fill='#000' x='1320' y='1245' style='font-size: 10pt;text-anchor: middle;font-weight: normal;'>null</text>
+        <text stroke='none' fill='#000' x='1320' y='1197' style='font-size: 10pt;text-anchor: middle;font-weight: normal;'>5</text>
+        <g transform='translate(1312, 1200)'>
+            <path d='m 0,8 5,0' />
+            <circle fill='#FFF' cy='8' cx='8' r='3' />
+        </g>
+        <g transform='translate(1360, 1264) matrix(0, -1, 1, 0, 0, 16)'>
+            <path d='m 8,0 0,16' />
+            <path d='m 8,8 8,0' />
+            <circle fill='#000' stroke='none' cy='8' cx='8' r='3' />
+        </g>
+        <g transform='translate(1360, 1216) matrix(0, -1, 1, 0, 0, 48)'>
+            <path d='m 0,8 12,0 2,4 4,-8 4,8 4,-8 4,8 4,-8 2,4 12,0' />
+        </g>
+        <text stroke='none' fill='#000' x='1376' y='1245' style='font-size: 10pt;text-anchor: start;font-weight: normal;'>5k</text>
+        <g transform='translate(1360, 1168) matrix(-1, 0, 0, 1, 48, 0)'>
+            <circle fill='white' cy='24' cx='29' r='23' />
+            <line y2='38' y1='10' x2='23' x1='23' stroke-width='4' />
+            <path d='m 0,24 23,0' />
+            <path d='m 40,0 0,9 -18,9' />
+            <path d='m 40,48 0,-9 -18,-9' />
+            <path fill='#000' stroke='none' d='m 40,39 -6,-8 -4,8 10,0' />
+        </g>
+        <g transform='translate(1408, 1184) matrix(0, -1, 1, 0, 0, 16)'>
+            <path d='m 8,0 0,16' />
+            <path d='m 8,8 8,0' />
+            <circle fill='#000' stroke='none' cy='8' cx='8' r='3' />
+        </g>
+        <g transform='translate(1424, 1168)'>
+            <circle fill='white' cy='24' cx='29' r='23' />
+            <line y2='38' y1='10' x2='23' x1='23' stroke-width='4' />
+            <path d='m 0,24 23,0' />
+            <path d='m 40,0 0,9 -18,9' />
+            <path d='m 40,48 0,-9 -18,-9' />
+            <path fill='#000' stroke='none' d='m 40,39 -6,-8 -4,8 10,0' />
+        </g>
+        <g transform='translate(1456, 1136) matrix(-1, 0, 0, -1, 16, 16)'>
+            <path d='m 8,0 0,16' />
+            <path d='m 8,8 8,0' />
+            <circle fill='#000' stroke='none' cy='8' cx='8' r='3' />
+        </g>
+        <g transform='translate(1408, 1136)'>
+            <path d='m 8,16 0,-8 8,0' />
+        </g>
+        <g transform='translate(1456, 1264) matrix(0, -1, 1, 0, 0, 16)'>
+            <path d='m 8,0 0,16' />
+            <path d='m 8,8 8,0' />
+            <circle fill='#000' stroke='none' cy='8' cx='8' r='3' />
+        </g>
+        <g transform='translate(1520, 1264) matrix(0, -1, 1, 0, 0, 16)'>
+            <path d='m 8,0 0,16' />
+            <path d='m 8,8 8,0' />
+            <circle fill='#000' stroke='none' cy='8' cx='8' r='3' />
+        </g>
+        <g transform='translate(1584, 1264) matrix(0, -1, 1, 0, 0, 16)'>
+            <path d='m 8,0 0,16' />
+            <path d='m 8,8 8,0' />
+            <circle fill='#000' stroke='none' cy='8' cx='8' r='3' />
+        </g>
+        <g transform='translate(1648, 1264) matrix(0, -1, 1, 0, 0, 16)'>
+            <path d='m 8,0 0,16' />
+            <path d='m 8,8 8,0' />
+            <circle fill='#000' stroke='none' cy='8' cx='8' r='3' />
+        </g>
+        <g transform='translate(1648, 1216) matrix(0, -1, 1, 0, 0, 48)'>
+            <path d='m 0,8 12,0 2,4 4,-8 4,8 4,-8 4,8 4,-8 2,4 12,0' />
+        </g>
+        <g transform='translate(1584, 1216) matrix(0, -1, 1, 0, 0, 48)'>
+            <path d='m 0,8 12,0 2,4 4,-8 4,8 4,-8 4,8 4,-8 2,4 12,0' />
+        </g>
+        <g transform='translate(1648, 1200) matrix(-1, 0, 0, -1, 16, 16)'>
+            <path d='m 8,0 0,16' />
+            <path d='m 8,8 8,0' />
+            <circle fill='#000' stroke='none' cy='8' cx='8' r='3' />
+        </g>
+        <g transform='translate(1520, 1184) matrix(-1, 0, 0, 1, 48, 0)'>
+            <circle fill='white' cy='24' cx='29' r='23' />
+            <line y2='38' y1='10' x2='23' x1='23' stroke-width='4' />
+            <path d='m 0,24 23,0' />
+            <path d='m 40,0 0,9 -18,9' />
+            <path d='m 40,48 0,-9 -18,-9' />
+            <path fill='#000' stroke='none' d='m 40,39 -6,-8 -4,8 10,0' />
+        </g>
+        <g transform='translate(1584, 1200)'>
+            <path d='m 0,8 16,0' />
+            <path d='m 8,0 0,6' />
+            <path d='m 8,16 0,-6' />
+        </g>
+        <text stroke='none' fill='#000' x='1600' y='1245' style='font-size: 10pt;text-anchor: start;font-weight: normal;'>50k</text>
+        <text stroke='none' fill='#000' x='1664' y='1245' style='font-size: 10pt;text-anchor: start;font-weight: normal;'>50</text>
+        <g transform='translate(1616, 1152)'>
+            <circle fill='white' cy='24' cx='29' r='23' />
+            <line y2='38' y1='10' x2='23' x1='23' stroke-width='4' />
+            <path d='m 0,24 23,0' />
+            <path d='m 40,0 0,9 -18,9' />
+            <path d='m 40,48 0,-9 -18,-9' />
+            <path fill='#000' stroke='none' d='m 40,39 -6,-8 -4,8 10,0' />
+        </g>
+        <g transform='translate(1584, 1168)'>
+            <path d='m 8,0 0,16' />
+            <path d='m 8,8 8,0' />
+            <circle fill='#000' stroke='none' cy='8' cx='8' r='3' />
+        </g>
+        <g transform='translate(1520, 1104) matrix(-1, 0, 0, -1, 16, 16)'>
+            <path d='m 8,0 0,16' />
+            <path d='m 8,8 8,0' />
+            <circle fill='#000' stroke='none' cy='8' cx='8' r='3' />
+        </g>
+        <g transform='translate(1264, 1104)'>
+            <path d='m 8,0 0,16' />
+            <path d='m 8,8 8,0' />
+            <circle fill='#000' stroke='none' cy='8' cx='8' r='3' />
+        </g>
+        <g transform='translate(1360, 1104)'>
+            <path d='m 0,8 16,0' />
+            <path d='m 8,0 0,6' />
+            <path d='m 8,16 0,-6' />
+        </g>
+        <g transform='translate(1456, 1104)'>
+            <path d='m 0,8 16,0' />
+            <path d='m 8,0 0,6' />
+            <path d='m 8,16 0,-6' />
+        </g>
+        <g transform='translate(1552, 1104)'>
+            <circle fill='white' cy='24' cx='29' r='23' />
+            <line y2='38' y1='10' x2='23' x1='23' stroke-width='4' />
+            <path d='m 0,24 23,0' />
+            <path d='m 40,0 0,9 -18,9' />
+            <path d='m 40,48 0,-9 -18,-9' />
+            <path fill='#000' stroke='none' d='m 40,39 -6,-8 -4,8 10,0' />
+        </g>
+        <g transform='translate(1520, 1120)'>
+            <path d='m 8,0 0,16' />
+            <path d='m 8,8 8,0' />
+            <circle fill='#000' stroke='none' cy='8' cx='8' r='3' />
+        </g>
+        <g transform='translate(1584, 1072)'>
+            <path d='m 8,0 0,16' />
+            <path d='m 8,8 8,0' />
+            <circle fill='#000' stroke='none' cy='8' cx='8' r='3' />
+        </g>
+        <g transform='translate(1648, 1072) matrix(-1, 0, 0, -1, 16, 16)'>
+            <path d='m 8,0 0,16' />
+            <path d='m 8,8 8,0' />
+            <circle fill='#000' stroke='none' cy='8' cx='8' r='3' />
+        </g>
+        <g transform='translate(1584, 1024) matrix(0, -1, 1, 0, 0, 48)'>
+            <path d='m 0,8 12,0 2,4 4,-8 4,8 4,-8 4,8 4,-8 2,4 12,0' />
+        </g>
+        <text stroke='none' fill='#000' x='1600' y='1053' style='font-size: 10pt;text-anchor: start;font-weight: normal;'>7.5k</text>
+        <g transform='translate(1584, 1008)'>
+            <path d='m 8,0 0,16' />
+            <path d='m 8,8 8,0' />
+            <circle fill='#000' stroke='none' cy='8' cx='8' r='3' />
+        </g>
+        <g transform='translate(1584, 960) matrix(0, -1, 1, 0, 0, 48)'>
+            <path d='m 0,8 12,0 2,4 4,-8 4,8 4,-8 4,8 4,-8 2,4 12,0' />
+        </g>
+        <text stroke='none' fill='#000' x='1600' y='989' style='font-size: 10pt;text-anchor: start;font-weight: normal;'>4.5k</text>
+        <g transform='translate(1616, 992)'>
+            <circle fill='white' cy='24' cx='29' r='23' />
+            <line y2='38' y1='10' x2='23' x1='23' stroke-width='4' />
+            <path d='m 0,24 23,0' />
+            <path d='m 40,0 0,9 -18,9' />
+            <path d='m 40,48 0,-9 -18,-9' />
+            <path fill='#000' stroke='none' d='m 40,39 -6,-8 -4,8 10,0' />
+        </g>
+        <g transform='translate(1584, 944) matrix(0, 1, -1, 0, 16, 0)'>
+            <path d='m 8,0 0,16' />
+            <path d='m 8,8 8,0' />
+            <circle fill='#000' stroke='none' cy='8' cx='8' r='3' />
+        </g>
+        <g transform='translate(1648, 944) matrix(-1, 0, 0, -1, 16, 16)'>
+            <path d='m 8,0 0,16' />
+            <path d='m 8,8 8,0' />
+            <circle fill='#000' stroke='none' cy='8' cx='8' r='3' />
+        </g>
+        <g transform='translate(1648, 928)'>
+            <path d='m 8,0 0,16' />
+            <path d='m 8,8 8,0' />
+            <circle fill='#000' stroke='none' cy='8' cx='8' r='3' />
+        </g>
+        <g transform='translate(1520, 944)'>
+            <path d='m 8,16 0,-8 8,0' />
+        </g>
+        <g transform='translate(1520, 1008) matrix(0, -1, 1, 0, 0, 48)'>
+            <path d='m 0,8 21,0' />
+            <path d='m 21,0 0,16' />
+            <path d='m 27,0 0,16' />
+            <path d='m 27,8 21,0' />
+        </g>
+        <text stroke='none' fill='#000' x='1536' y='1037' style='font-size: 10pt;text-anchor: start;font-weight: normal;'>30p</text>
+        <g transform='translate(1696, 928) matrix(0, 1, -1, 0, 16, 0)'>
+            <path d='m 8,0 0,16' />
+            <path d='m 8,8 8,0' />
+            <circle fill='#000' stroke='none' cy='8' cx='8' r='3' />
+        </g>
+        <g transform='translate(1696, 960) matrix(-1, 0, 0, 1, 48, 0)'>
+            <circle fill='white' cy='24' cx='29' r='23' />
+            <line y2='38' y1='10' x2='23' x1='23' stroke-width='4' />
+            <path d='m 0,24 23,0' />
+            <path d='m 40,0 0,9 -18,9' />
+            <path d='m 40,48 0,-9 -18,-9' />
+            <path fill='#000' stroke='none' d='m 40,39 -6,-8 -4,8 10,0' />
+        </g>
+        <g transform='translate(1728, 912)'>
+            <circle fill='white' cy='24' cx='29' r='23' />
+            <line y2='38' y1='10' x2='23' x1='23' stroke-width='4' />
+            <path d='m 0,24 23,0' />
+            <path d='m 40,0 0,9 -18,9' />
+            <path d='m 40,48 0,-9 -18,-9' />
+            <path fill='#000' stroke='none' d='m 40,39 -6,-8 -4,8 10,0' />
+        </g>
+        <g transform='translate(1760, 976) matrix(-1, 0, 0, -1, 16, 16)'>
+            <path d='m 8,0 0,16' />
+            <path d='m 8,8 8,0' />
+            <circle fill='#000' stroke='none' cy='8' cx='8' r='3' />
+        </g>
+        <g transform='translate(1760, 992) matrix(0, -1, 1, 0, 0, 48)'>
+            <path d='m 0,8 12,0 2,4 4,-8 4,8 4,-8 4,8 4,-8 2,4 12,0' />
+        </g>
+        <text stroke='none' fill='#000' x='1776' y='1021' style='font-size: 10pt;text-anchor: start;font-weight: normal;'>25</text>
+        <g transform='translate(1760, 1040) matrix(-1, 0, 0, -1, 16, 16)'>
+            <path d='m 8,0 0,16' />
+            <path d='m 8,8 8,0' />
+            <circle fill='#000' stroke='none' cy='8' cx='8' r='3' />
+        </g>
+        <g transform='translate(1760, 1056)'>
+            <path d='m 8,0 0,16' />
+            <path d='m 8,8 8,0' />
+            <circle fill='#000' stroke='none' cy='8' cx='8' r='3' />
+        </g>
+        <g transform='translate(1696, 1040) matrix(0, -1, 1, 0, 0, 16)'>
+            <path d='m 8,16 0,-8 8,0' />
+        </g>
+        <g transform='translate(1760, 1072) matrix(0, -1, 1, 0, 0, 48)'>
+            <path d='m 0,8 12,0 2,4 4,-8 4,8 4,-8 4,8 4,-8 2,4 12,0' />
+        </g>
+        <text stroke='none' fill='#000' x='1776' y='1101' style='font-size: 10pt;text-anchor: start;font-weight: normal;'>50</text>
+        <g transform='translate(1728, 1120)'>
+            <circle fill='white' cy='24' cx='29' r='23' />
+            <line y2='38' y1='10' x2='23' x1='23' stroke-width='4' />
+            <path d='m 0,24 23,0' />
+            <path d='m 40,0 0,9 -18,9' />
+            <path d='m 40,48 0,-9 -18,-9' />
+            <path fill='#000' stroke='none' d='m 26,16 6,-8 4,8 -10,0' />
+        </g>
+        <g transform='translate(1648, 1136)'>
+            <path d='m 8,0 0,16' />
+            <path d='m 8,8 8,0' />
+            <circle fill='#000' stroke='none' cy='8' cx='8' r='3' />
+        </g>
+        <g transform='translate(1808, 1056)'>
+            <path d='m 0,8 5,0' />
+            <circle fill='#FFF' cy='8' cx='8' r='3' />
+        </g>
+        <text stroke='none' fill='#000' x='1816' y='1085' style='font-size: 10pt;text-anchor: middle;font-weight: normal;'>Output</text>
+        <g transform='translate(1760, 1264) matrix(0, -1, 1, 0, 0, 16)'>
+            <path d='m 8,0 0,16' />
+            <path d='m 8,8 8,0' />
+            <circle fill='#000' stroke='none' cy='8' cx='8' r='3' />
+        </g>
+        <g transform='translate(1808, 1264)'>
+            <path d='m 0,8 5,0' />
+            <circle fill='#FFF' cy='8' cx='8' r='3' />
+        </g>
+        <text stroke='none' fill='#000' x='1816' y='1261' style='font-size: 10pt;text-anchor: middle;font-weight: normal;'>4</text>
+        <text stroke='none' fill='#000' x='1816' y='1293' style='font-size: 10pt;text-anchor: middle;font-weight: normal;'>V<tspan style='font-size: 6pt' dy='0.5em'>S-</tspan>
+</text>
+        <g transform='translate(1456, 992) matrix(0, -1, 1, 0, 0, 48)'>
+            <path d='m 0,8 12,0 2,4 4,-8 4,8 4,-8 4,8 4,-8 2,4 12,0' />
+        </g>
+        <text stroke='none' fill='#000' x='1472' y='1021' style='font-size: 10pt;text-anchor: start;font-weight: normal;'>39k</text>
+        <g transform='translate(1104, 1008) matrix(-1, 0, 0, 1, 48, 0)'>
+            <circle fill='white' cy='24' cx='29' r='23' />
+            <line y2='38' y1='10' x2='23' x1='23' stroke-width='4' />
+            <path d='m 0,24 23,0' />
+            <path d='m 40,0 0,9 -18,9' />
+            <path d='m 40,48 0,-9 -18,-9' />
+            <path fill='#000' stroke='none' d='m 26,16 6,-8 4,8 -10,0' />
+        </g>
+        <g transform='translate(1232, 1008)'>
+            <circle fill='white' cy='24' cx='29' r='23' />
+            <line y2='38' y1='10' x2='23' x1='23' stroke-width='4' />
+            <path d='m 0,24 23,0' />
+            <path d='m 40,0 0,9 -18,9' />
+            <path d='m 40,48 0,-9 -18,-9' />
+            <path fill='#000' stroke='none' d='m 26,16 6,-8 4,8 -10,0' />
+        </g>
+        <g transform='translate(1072, 928)'>
+            <circle fill='white' cy='24' cx='29' r='23' />
+            <line y2='38' y1='10' x2='23' x1='23' stroke-width='4' />
+            <path d='m 0,24 23,0' />
+            <path d='m 40,0 0,9 -18,9' />
+            <path d='m 40,48 0,-9 -18,-9' />
+            <path fill='#000' stroke='none' d='m 40,39 -6,-8 -4,8 10,0' />
+        </g>
+        <g transform='translate(1264, 928) matrix(-1, 0, 0, 1, 48, 0)'>
+            <circle fill='white' cy='24' cx='29' r='23' />
+            <line y2='38' y1='10' x2='23' x1='23' stroke-width='4' />
+            <path d='m 0,24 23,0' />
+            <path d='m 40,0 0,9 -18,9' />
+            <path d='m 40,48 0,-9 -18,-9' />
+            <path fill='#000' stroke='none' d='m 40,39 -6,-8 -4,8 10,0' />
+        </g>
+        <g transform='translate(1168, 1024)'>
+            <path d='m 0,8 16,0' />
+            <path d='m 8,0 0,6' />
+            <path d='m 8,16 0,-6' />
+        </g>
+        <g transform='translate(1200, 1024) matrix(0, 1, -1, 0, 16, 0)'>
+            <path d='m 8,0 0,16' />
+            <path d='m 8,8 8,0' />
+            <circle fill='#000' stroke='none' cy='8' cx='8' r='3' />
+        </g>
+        <g transform='translate(1264, 1072)'>
+            <path d='m 0,8 16,0' />
+            <path d='m 8,0 0,6' />
+            <path d='m 8,16 0,-6' />
+        </g>
+        <g transform='translate(1360, 1072) matrix(-1, 0, 0, -1, 16, 16)'>
+            <path d='m 8,0 0,16' />
+            <path d='m 8,8 8,0' />
+            <circle fill='#000' stroke='none' cy='8' cx='8' r='3' />
+        </g>
+        <g transform='translate(1200, 1072) matrix(0, -1, 1, 0, 0, 16)'>
+            <path d='m 8,16 0,-8 8,0' />
+        </g>
+        <g transform='translate(1312, 944)'>
+            <path d='m 0,8 5,0' />
+            <circle fill='#FFF' cy='8' cx='8' r='3' />
+        </g>
+        <g transform='translate(1056, 944) matrix(-1, 0, 0, -1, 16, 16)'>
+            <path d='m 0,8 5,0' />
+            <circle fill='#FFF' cy='8' cx='8' r='3' />
+        </g>
+        <text stroke='none' fill='#000' x='1320' y='973' style='font-size: 10pt;text-anchor: middle;font-weight: normal;'>2</text>
+        <text stroke='none' fill='#000' x='1320' y='941' style='font-size: 10pt;text-anchor: middle;font-weight: normal;'>input</text>
+        <text stroke='none' fill='#000' x='1320' y='925' style='font-size: 10pt;text-anchor: middle;font-weight: normal;'>Inverting</text>
+        <g transform='translate(1104, 896)'>
+            <path d='m 8,16 0,-8 8,0' />
+        </g>
+        <g transform='translate(1264, 896) matrix(0, 1, -1, 0, 16, 0)'>
+            <path d='m 8,16 0,-8 8,0' />
+        </g>
+        <g transform='translate(1168, 896)'>
+            <path d='m 0,8 16,0' />
+            <path d='m 8,0 0,6' />
+            <path d='m 8,16 0,-6' />
+        </g>
+        <g transform='translate(1200, 896) matrix(0, -1, 1, 0, 0, 16)'>
+            <path d='m 8,0 0,16' />
+            <path d='m 8,8 8,0' />
+            <circle fill='#000' stroke='none' cy='8' cx='8' r='3' />
+        </g>
+        <g transform='translate(1200, 832) matrix(-1, 0, 0, 1, 48, 0)'>
+            <circle fill='white' cy='24' cx='29' r='23' />
+            <line y2='38' y1='10' x2='23' x1='23' stroke-width='4' />
+            <path d='m 0,24 23,0' />
+            <path d='m 40,0 0,9 -18,9' />
+            <path d='m 40,48 0,-9 -18,-9' />
+            <path fill='#000' stroke='none' d='m 26,16 6,-8 4,8 -10,0' />
+        </g>
+        <g transform='translate(1248, 896) matrix(0, -1, 1, 0, 0, 16)'>
+            <path d='m 8,0 0,16' />
+            <path d='m 8,8 8,0' />
+            <circle fill='#000' stroke='none' cy='8' cx='8' r='3' />
+        </g>
+        <g transform='translate(1248, 848) matrix(0, 1, -1, 0, 16, 0)'>
+            <path d='m 8,0 0,16' />
+            <path d='m 8,8 8,0' />
+            <circle fill='#000' stroke='none' cy='8' cx='8' r='3' />
+        </g>
+        <text stroke='none' fill='#000' x='1064' y='973' style='font-size: 10pt;text-anchor: middle;font-weight: normal;'>3</text>
+        <text stroke='none' fill='#000' x='1064' y='941' style='font-size: 10pt;text-anchor: middle;font-weight: normal;'>input</text>
+        <text stroke='none' fill='#000' x='1064' y='925' style='font-size: 10pt;text-anchor: middle;font-weight: normal;'>Non-inverting</text>
+        <g transform='translate(1200, 800) matrix(0, 1, -1, 0, 16, 0)'>
+            <path d='m 8,0 0,16' />
+            <path d='m 8,8 8,0' />
+            <circle fill='#000' stroke='none' cy='8' cx='8' r='3' />
+        </g>
+        <g transform='translate(1328, 832)'>
+            <circle fill='white' cy='24' cx='29' r='23' />
+            <line y2='38' y1='10' x2='23' x1='23' stroke-width='4' />
+            <path d='m 0,24 23,0' />
+            <path d='m 40,0 0,9 -18,9' />
+            <path d='m 40,48 0,-9 -18,-9' />
+            <path fill='#000' stroke='none' d='m 26,16 6,-8 4,8 -10,0' />
+        </g>
+        <g transform='translate(1360, 800) matrix(0, 1, -1, 0, 16, 0)'>
+            <path d='m 8,0 0,16' />
+            <path d='m 8,8 8,0' />
+            <circle fill='#000' stroke='none' cy='8' cx='8' r='3' />
+        </g>
+        <g transform='translate(1168, 800)'>
+            <path d='m 8,16 0,-8 8,0' />
+        </g>
+        <g transform='translate(1456, 800) matrix(0, 1, -1, 0, 16, 0)'>
+            <path d='m 8,0 0,16' />
+            <path d='m 8,8 8,0' />
+            <circle fill='#000' stroke='none' cy='8' cx='8' r='3' />
+        </g>
+        <g transform='translate(1648, 800) matrix(0, 1, -1, 0, 16, 0)'>
+            <path d='m 8,0 0,16' />
+            <path d='m 8,8 8,0' />
+            <circle fill='#000' stroke='none' cy='8' cx='8' r='3' />
+        </g>
+        <g transform='translate(1760, 800) matrix(0, 1, -1, 0, 16, 0)'>
+            <path d='m 8,0 0,16' />
+            <path d='m 8,8 8,0' />
+            <circle fill='#000' stroke='none' cy='8' cx='8' r='3' />
+        </g>
+        <g transform='translate(1808, 800)'>
+            <path d='m 0,8 5,0' />
+            <circle fill='#FFF' cy='8' cx='8' r='3' />
+        </g>
+        <text stroke='none' fill='#000' x='1816' y='829' style='font-size: 10pt;text-anchor: middle;font-weight: normal;'>7</text>
+        <text stroke='none' fill='#000' x='1816' y='845' style='font-size: 10pt;text-anchor: middle;font-weight: normal;'>V<tspan style='font-size: 6pt' dy='0.5em'>S+</tspan>
+</text>
+        <text stroke='none' fill='#000' x='1816' y='1053' style='font-size: 10pt;text-anchor: middle;font-weight: normal;'>6</text>
+        <g transform='translate(1456, 848) matrix(-1, 0, 0, 1, 48, 0)'>
+            <circle fill='white' cy='24' cx='29' r='23' />
+            <line y2='38' y1='10' x2='23' x1='23' stroke-width='4' />
+            <path d='m 0,24 23,0' />
+            <path d='m 40,0 0,9 -18,9' />
+            <path d='m 40,48 0,-9 -18,-9' />
+            <path fill='#000' stroke='none' d='m 26,16 6,-8 4,8 -10,0' />
+        </g>
+        <g transform='translate(1616, 848)'>
+            <circle fill='white' cy='24' cx='29' r='23' />
+            <line y2='38' y1='10' x2='23' x1='23' stroke-width='4' />
+            <path d='m 0,24 23,0' />
+            <path d='m 40,0 0,9 -18,9' />
+            <path d='m 40,48 0,-9 -18,-9' />
+            <path fill='#000' stroke='none' d='m 26,16 6,-8 4,8 -10,0' />
+        </g>
+        <g transform='translate(1456, 912)'>
+            <path d='m 8,0 0,16' />
+            <path d='m 8,8 8,0' />
+            <circle fill='#000' stroke='none' cy='8' cx='8' r='3' />
+        </g>
+        <g transform='translate(1520, 864) matrix(0, 1, -1, 0, 16, 0)'>
+            <path d='m 8,0 0,16' />
+            <path d='m 8,8 8,0' />
+            <circle fill='#000' stroke='none' cy='8' cx='8' r='3' />
+        </g>
+        <g transform='translate(1520, 912) matrix(-1, 0, 0, -1, 16, 16)'>
+            <path d='m 8,16 0,-8 8,0' />
+        </g>
+    </g>
+</svg>
