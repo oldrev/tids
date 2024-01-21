@@ -14,8 +14,9 @@
 
 ## 特性
 
-- **Simple and User-friendly:** Uses Markdown format for easy readability and writing.
-- **Customizable:** Can be customized for specific component specifications.
+- **简单易学：**使用 Typst 易于编写和阅读，如果你会编写 Markdown，那 Typst 没太大的不同。
+- **可自定义：**模板完全开源，你可以完全自定义，这里的 TI 风格只是个例子。
+- **编译飞快：**一两秒即可编译输出 PDF，而不是 LaTeX 需要的几分钟甚至更久。
 
 ## 快速上手
 
