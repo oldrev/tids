@@ -7,7 +7,7 @@ for testing and showcasing the potential of using Typst for technical documentat
 
 ![Demo](gallery/demo.png)
 
-**If this project is helpful to you, please consider leaving a star.**
+**If this project is helpful to you, please consider leaving a star⭐, you know the drill.**
 
 ## Disclaimer
 
