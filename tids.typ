@@ -203,13 +203,13 @@
 
     show heading: it => block([
         #v(0.3em)
-        #text(weight: "medium", font: fonts.headings, [#counter(heading).display() #it.body])
+        #text(weight: "bold", font: fonts.headings, [#counter(heading).display() #it.body])
         #v(0.8em)
     ])
 
     show heading.where(level: 1): it => {
         block([
-            #text( weight: "medium", font: fonts.headings, [#counter(heading).display() #it.body])
+            #text( weight: "bold", font: fonts.headings, [#counter(heading).display() #it.body])
             #v(0.3em)
         ])
     }
