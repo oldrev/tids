@@ -43,7 +43,9 @@
         [
             #block(height: 40%, [
                 #columns(2, gutter: 30pt)[
-                    #outline(title: "Contents", depth: 3)
+                    = Contents
+                    <Directory>
+                    #outline(title: none, depth: 3)
                 ]
             ])
 

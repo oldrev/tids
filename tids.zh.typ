@@ -40,11 +40,12 @@
     let lastest_rev = rev_list.first()
 
     let outline_page() = {
-        // 内容太多就把这里 40% 调大
         [
             #block(height: 40%, [
                 #columns(2, gutter: 30pt)[
-                    #outline(title: "目录", depth: 3)
+                    = 目录
+                    <Directory>
+                    #outline(title: none, depth: 3)
                 ]
             ])
 
