@@ -36,7 +36,7 @@
 
 ## 使用
 
-1. 把模板文件 `tsds.typ` 复制到你的项目目录里。
+1. 把模板文件 `tids.zh.typ` 复制到你的项目目录里。
 2. 导入模板文件并调用 `tids()` 函数：
     ```typst
     #import "tids.typ": tids, ds_tablex_styles
