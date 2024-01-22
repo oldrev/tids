@@ -78,23 +78,23 @@
 #figure(
     tablex(
         ..ds_tablex_styles,
-        columns: (auto, auto, auto, auto, auto, auto, 1fr),
+        columns: (1fr, auto, auto, auto, auto, auto, 1fr),
         align: (col, row) => (left,center,right,right,right,left,left,).at(col),
 
-        [*参数*], [*符号*], [*最小值*], [*典型值*], [*最大值*], [*单位*], [*条件*],
+        [*Parameters*], [*Symbol*], [*Minimum*], [*Typical*], [*Maximum*], [*Unit*], [*Condition*],
 
-        [额定电压], [$V_(upright("IN"))$], [5], [—], [24], [V], [—],
+        [Rated Voltage], [$V_(upright("IN"))$], [5], [—], [24], [V], [—],
 
-        [额定电流], [$I$], [100], [150], [1,000], [mA], [使用 5V 供电],
+        [Rated Current], [$I$], [100], [150], [1,000], [mA], [Using 5V Supply],
 
-        [控制信号高电平输出电压], [$V_(upright("OH"))$], [4.5], [—], [—], [V], [—],
+        [High-Level Voltage], [$V_(upright("OH"))$], [4.5], [—], [—], [V], [—],
 
-        [控制信号低电平输出电压], [$V_(upright("OL"))$], [—], [—], [0.5], [V], [—],
+        [Low-Level Voltage], [$V_(upright("OL"))$], [—], [—], [0.5], [V], [—],
 
-        [控制信号输出高电平拉电流], [$I_(upright("OH"))$], [—], [20], [—], [mA], [—],
+        [Output High-Level Current], [$I_(upright("OH"))$], [—], [20], [—], [mA], [—],
     ),
     kind: table,
-    caption: [电气规格表]
+    caption: [Electrical Specifications]
 )
 
 == Absolute Maximum Ratings
@@ -106,14 +106,14 @@
         columns: (auto, auto, auto, auto, auto, 1fr),
         align: (col, row) => (left,center,right,right,center,left).at(col),
 
-        [*参数*], [*符号*], [*最小值*], [*最大值*], [*单位*], [*备注*],
+        [*Parameter*], [*Symbol*], [*Minimum Value*], [*Maximum Value*], [*Unit*], [*Note*],
 
-        [电源供电电压], [$V_(upright("IN"))$], [0], [30], [V],[],
+        [Power Supply Voltage], [$V_(upright("IN"))$], [0], [30], [V],[],
 
-        [环境温度], [$T_A$], [-25], [85], [°C],[],
+        [Ambient Temperature], [$T_A$], [-25], [85], [°C],[],
     ),
     kind: table,
-    caption: [绝对最大额定值表],
+    caption: [Absolute Maximum Ratings Table],
 )
 
 #warning(title: "Warning")[

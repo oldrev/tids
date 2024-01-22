@@ -24,6 +24,8 @@
     ```powershell
     winget install --id Typst.Typst
     ```
+    演示的模板用到了思源黑体和思源宋体，可以到 Adobe 的官方仓库下载：
+    [https://github.com/adobe-fonts/source-han-sans] (https://github.com/adobe-fonts/source-han-sans) 并安装到操作系统中;
 1. 克隆本仓库到本地
    ```bash
    git clone https://github.com/oldrev/tids.git
@@ -36,7 +38,7 @@
 
 ## 使用
 
-1. 把模板文件 `tids.zh.typ` 复制到你的项目目录里。
+1. 把模板文件 `tids.zh.typ` 复制到你的项目目录里，如果是编写英文的规格书就用 `tids.typ`。
 2. 导入模板文件并调用 `tids()` 函数：
     ```typst
     #import "tids.typ": tids, ds_tablex_styles

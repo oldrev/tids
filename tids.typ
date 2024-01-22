@@ -24,13 +24,13 @@
     ), features: [], applications: [], desc: [], rev_list: [], doc: []) = {
 
     let fonts = (
-        serif:          ("Source Han Serif", "Liberation Serif"),
-        sans:           ("Source Han Sans", "Helvetica Neue", "Helvetica"),
-        mono:           ("Source Han Mono"),
-        text:           ("Source Han Serif", "Liberation Serif"),
-        text_strong:    ("Source Han Sans"),
-        headings:       ("Source Han Sans", "Helvetica Neue", "Helvetica"),
-        code:           ("Source Han Mono"),
+        serif:          ("Times New Roman", "Source Serif", "Liberation Serif"),
+        sans:           ("Dejavu Sans", "Arial", "Helvetica Neue", "Helvetica", "Source Sans"),
+        mono:           ("Consolas", "Source Mono"),
+        text:           ("Arial", "Dejavu Sans"),
+        text_strong:    ("Arial", "Dejavu Sans"),
+        headings:       ("Arial", "Dejavu Sans", "Helvetica Neue", "Helvetica"),
+        code:           ("Source Mono"),
     )
 
     set text(font: fonts.text, size: 11pt)
@@ -57,7 +57,7 @@
 
             #block({
                 for r in rev_list {
-                    text(font: fonts.text_strong, weight: "medium", [#r.rev - #r.date])
+                    text(font: fonts.sans, weight: "semibold", [#r.rev - #r.date])
                     v(-0.65em)
                     line(length: 100%, stroke: 0.3pt)
                     v(-0.65em)
@@ -203,13 +203,13 @@
 
     show heading: it => block([
         #v(0.3em)
-        #text(weight: "regular", font: fonts.headings, [#counter(heading).display() #it.body])
+        #text(weight: "medium", font: fonts.headings, [#counter(heading).display() #it.body])
         #v(0.8em)
     ])
 
     show heading.where(level: 1): it => {
         block([
-            #text( weight: "regular", font: fonts.headings, [#counter(heading).display() #it.body])
+            #text( weight: "medium", font: fonts.headings, [#counter(heading).display() #it.body])
             #v(0.3em)
         ])
     }
