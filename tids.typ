@@ -1,17 +1,9 @@
-#import "@preview/tablex:0.0.8": tablex, hlinex, vlinex, colspanx, rowspanx
 #import "@preview/cetz:0.1.2": canvas, plot
 
 #let company_info = (
     name:           "Mingshu Semiconductors Inc.",
     logo:           "./assets/demo-logo.svg",
     website_url:    "https://github.com/oldrev",
-)
-
-#let ds_tablex_styles = (
-    repeat-header: true,
-    inset: 6pt,
-    map-vlines: v => (..v, stroke: 0.5pt),
-    map-hlines: h => (..h, stroke: 0.5pt),
 )
 
 
@@ -36,6 +28,26 @@
     set text(font: fonts.text, size: 11pt)
     show link: it => text(fill: rgb("#0000FF"))[#it]
     set page(paper: "a4")
+
+    // Figure styles
+    show figure.caption: set text(
+        weight: "semibold",
+        font: fonts.headings
+    )
+
+    // table styles
+    show figure.where(
+        kind: table
+    ): set figure.caption(position: top)
+
+    set table(
+        stroke: 0.5pt,
+        fill: (_, y) => if y == 0 { gray.lighten(75%) },
+        align: (_, y) => if y == 0 { align(center) },
+    )
+    show table.header: strong
+    show table.cell.where(y: 0): set text(weight: "semibold")
+
 
     let lastest_rev = rev_list.first()
 

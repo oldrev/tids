@@ -40,7 +40,7 @@ This is an open-source project created solely for demonstration purposes, with n
 1. Copy the template file `tids.typ` to the directory of your project.
 2. Import the template and call `tids()` function:
     ```typst
-    #import "tids.typ": tids, ds_tablex_styles
+    #import "tids.typ": tids
 
     #show: doc => tids(ds_metadata: (
             title: [YourDSTitle],

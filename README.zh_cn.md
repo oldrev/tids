@@ -41,7 +41,7 @@
 1. 把模板文件 `tids.zh.typ` 复制到你的项目目录里，如果是编写英文的规格书就用 `tids.typ`。
 2. 导入模板文件并调用 `tids()` 函数：
     ```typst
-    #import "tids.typ": tids, ds_tablex_styles
+    #import "tids.typ": tids
 
     #show: doc => tids(ds_metadata: (
             title: [YourDSTitle],

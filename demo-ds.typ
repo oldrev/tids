@@ -1,6 +1,5 @@
-#import "tids.typ": tids, ds_tablex_styles
+#import "tids.typ": tids
 #import "@preview/gentle-clues:0.6.0": warning
-#import "@preview/tablex:0.0.8": tablex, hlinex, vlinex, colspanx, rowspanx
 
 #let metadata = (
     title: [FXC1117 Flux Capacitor],
@@ -75,45 +74,35 @@
 == Specifications
 <Specifications>
 
-#figure(
-    tablex(
-        ..ds_tablex_styles,
-        columns: (1fr, auto, auto, auto, auto, auto, 1fr),
-        align: (col, row) => (left,center,right,right,right,left,left,).at(col),
+#table(
+    columns: (1fr, auto, auto, auto, auto, auto, 1fr),
+    align: (left,center,right,right,right,left,left,),
 
-        [*Parameters*], [*Symbol*], [*Minimum*], [*Typical*], [*Maximum*], [*Unit*], [*Condition*],
+    table.header([Parameters], [Symbol], [Minimum], [Typical], [Maximum], [Unit], [Condition]),
 
-        [Rated Voltage], [$V_(upright("IN"))$], [5], [—], [24], [V], [—],
+    [Rated Voltage], [$V_(upright("IN"))$], [5], [—], [24], [V], [—],
 
-        [Rated Current], [$I$], [100], [150], [1,000], [mA], [Using 5V Supply],
+    [Rated Current], [$I$], [100], [150], [1,000], [mA], [Using 5V Supply],
 
-        [High-Level Voltage], [$V_(upright("OH"))$], [4.5], [—], [—], [V], [—],
+    [High-Level Voltage], [$V_(upright("OH"))$], [4.5], [—], [—], [V], [—],
 
-        [Low-Level Voltage], [$V_(upright("OL"))$], [—], [—], [0.5], [V], [—],
+    [Low-Level Voltage], [$V_(upright("OL"))$], [—], [—], [0.5], [V], [—],
 
-        [Output High-Level Current], [$I_(upright("OH"))$], [—], [20], [—], [mA], [—],
-    ),
-    kind: table,
-    caption: [Electrical Specifications]
+    [Output High-Level Current], [$I_(upright("OH"))$], [—], [20], [—], [mA], [—],
 )
 
 == Absolute Maximum Ratings
 <AbsoluteMaximumRatings>
 
-#figure(
-    tablex(
-        ..ds_tablex_styles,
-        columns: (auto, auto, auto, auto, auto, 1fr),
-        align: (col, row) => (left,center,right,right,center,left).at(col),
+#table(
+    columns: (auto, auto, auto, auto, auto, 1fr),
+    align: (left,center,right,right,center,left),
 
-        [*Parameter*], [*Symbol*], [*Minimum Value*], [*Maximum Value*], [*Unit*], [*Note*],
+    table.header([Parameter], [Symbol], [Minimum Value], [Maximum Value], [Unit], [Note]),
 
-        [Power Supply Voltage], [$V_(upright("IN"))$], [0], [30], [V],[],
+    [Power Supply Voltage], [$V_(upright("IN"))$], [0], [30], [V],[],
 
-        [Ambient Temperature], [$T_A$], [-25], [85], [°C],[],
-    ),
-    kind: table,
-    caption: [Absolute Maximum Ratings Table],
+    [Ambient Temperature], [$T_A$], [-25], [85], [°C],[],
 )
 
 #warning(title: "Warning")[

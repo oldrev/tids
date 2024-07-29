@@ -1,6 +1,5 @@
-#import "tids.zh.typ": tids, ds_tablex_styles
+#import "tids.zh.typ": tids
 #import "@preview/gentle-clues:0.6.0": warning
-#import "@preview/tablex:0.0.8": tablex, hlinex, vlinex, colspanx, rowspanx
 
 #let metadata = (
     title: [FXC1117 通量电容器],
@@ -76,46 +75,36 @@
 == 电气规格
 <电气规格>
 
-#figure(
-    tablex(
-        ..ds_tablex_styles,
-        columns: (auto, auto, auto, auto, auto, auto, 1fr),
-        align: (col, row) => (left,center,right,right,right,left,left,).at(col),
+#table(
+    columns: (auto, auto, auto, auto, auto, auto, 1fr),
+    align: (col, row) => (left,center,right,right,right,left,left,).at(col),
 
-        [*参数*], [*符号*], [*最小值*], [*典型值*], [*最大值*], [*单位*], [*条件*],
+    table.header([*参数*], [*符号*], [*最小值*], [*典型值*], [*最大值*], [*单位*], [*条件*]),
 
-        [额定电压], [$V_(upright("IN"))$], [5], [—], [24], [V], [—],
+    [额定电压], [$V_(upright("IN"))$], [5], [—], [24], [V], [—],
 
-        [额定电流], [$I$], [100], [150], [1,000], [mA], [使用 5V 供电],
+    [额定电流], [$I$], [100], [150], [1,000], [mA], [使用 5V 供电],
 
-        [控制信号高电平输出电压], [$V_(upright("OH"))$], [4.5], [—], [—], [V], [—],
+    [控制信号高电平输出电压], [$V_(upright("OH"))$], [4.5], [—], [—], [V], [—],
 
-        [控制信号低电平输出电压], [$V_(upright("OL"))$], [—], [—], [0.5], [V], [—],
+    [控制信号低电平输出电压], [$V_(upright("OL"))$], [—], [—], [0.5], [V], [—],
 
-        [控制信号输出高电平拉电流], [$I_(upright("OH"))$], [—], [20], [—], [mA], [—],
-    ),
-    kind: table,
-    caption: [电气规格表]
+    [控制信号输出高电平拉电流], [$I_(upright("OH"))$], [—], [20], [—], [mA], [—],
 )
 
 == 绝对最大额定值
 <绝对最大额定值>
 在超过绝对最大额定值范围内的情况下使用设备可能造成设备永久损坏。
 
-#figure(
-    tablex(
-        ..ds_tablex_styles,
-        columns: (auto, auto, auto, auto, auto, 1fr),
-        align: (col, row) => (left,center,right,right,center,left).at(col),
+#table(
+    columns: (auto, auto, auto, auto, auto, 1fr),
+    align: (col, row) => (left,center,right,right,center,left).at(col),
 
-        [*参数*], [*符号*], [*最小值*], [*最大值*], [*单位*], [*备注*],
+    table.header([*参数*], [*符号*], [*最小值*], [*最大值*], [*单位*], [*备注*]),
 
-        [电源供电电压], [$V_(upright("IN"))$], [0], [30], [V],[],
+    [电源供电电压], [$V_(upright("IN"))$], [0], [30], [V],[],
 
-        [环境温度], [$T_A$], [-25], [85], [°C],[],
-    ),
-    kind: table,
-    caption: [绝对最大额定值表],
+    [环境温度], [$T_A$], [-25], [85], [°C],[],
 )
 
 #warning(title: "警告")[
