@@ -1,4 +1,5 @@
-#import "@preview/cetz:0.1.2": canvas, plot
+#import "@preview/cetz:0.3.1": canvas
+#import "@preview/cetz-plot:0.1.0": plot, chart
 
 #let company_info = (
     name:           "Mingshu Semiconductors Inc.",
@@ -16,13 +17,13 @@
     ), features: [], applications: [], desc: [], rev_list: [], doc: []) = {
 
     let fonts = (
-        serif:          ("Times New Roman", "Source Serif", "Liberation Serif"),
-        sans:           ("Dejavu Sans", "Arial", "Helvetica Neue", "Helvetica", "Source Sans"),
-        mono:           ("Consolas", "Source Mono"),
+        serif:          ("Times New Roman", "Noto Serif", "Liberation Serif"),
+        sans:           ("Dejavu Sans", "Arial", "Noto Sans"),
+        mono:           ("Consolas", "Noto Sans Mono"),
         text:           ("Arial", "Dejavu Sans"),
         text_strong:    ("Arial", "Dejavu Sans"),
-        headings:       ("Arial", "Dejavu Sans", "Helvetica Neue", "Helvetica"),
-        code:           ("Source Mono"),
+        headings:       ("Arial", "Dejavu Sans"),
+        code:           ("Consolas", "Noto Sans Mono"),
     )
 
     set text(font: fonts.text, size: 11pt)
@@ -88,7 +89,8 @@
         line(length: 100%, stroke: 1pt)
         v(-0.65em)
         set text(10pt, baseline: 0pt)
-        locate(loc => if calc.odd(loc.page()) {
+        context {
+            if calc.odd(here().page()) {
                 grid(
                     columns: (5fr, 1fr),
                     rows: (auto),
@@ -113,10 +115,10 @@
                         Copyright © #link(company_info.website_url)[#company_info.name]],
                 )
             }
-        )
+        }
     }
 
-    let current_chapter() = locate(loc => {
+    let current_chapter() = context {
         let elems = query(
             heading.where(level:2).before(loc),
             loc,
@@ -125,7 +127,7 @@
             let elem = elems.last()
             h(1fr) + emph(counter(heading).at(loc).map(str).join(".") + h(.75em) + elem.body) + h(1fr)
         }
-    })
+    }
 
     let afterwords_page() = {
 
@@ -169,7 +171,8 @@
         footer-descent: 2em,
         header: [
             #set text(10pt)
-            #locate(loc => if calc.odd(loc.page()) {
+            #context {
+                if calc.odd(here().page()) {
                     grid(
                         columns: (1fr, 1fr),
                         rows: (100%),
@@ -202,7 +205,7 @@
                         ],
                     )
                 }
-            )
+            }
             #v(-0.65em)
             #line(length: 100%, stroke: 1pt)
         ],

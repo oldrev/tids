@@ -1,4 +1,5 @@
-#import "@preview/cetz:0.1.2": canvas, plot
+#import "@preview/cetz:0.3.1": canvas
+#import "@preview/cetz-plot:0.1.0": plot, chart
 
 #let company_info = (
     name:           "命数半导电股份有限公司",
@@ -16,11 +17,11 @@
 
     let fonts = (
         serif:          ("Source Han Serif", "Liberation Serif"),
-        sans:           ("Source Han Sans", "Helvetica Neue", "Helvetica"),
+        sans:           ("Source Han Sans"),
         mono:           ("Source Han Mono"),
         text:           ("Source Han Serif", "Liberation Serif"),
         text_strong:    ("Source Han Sans"),
-        headings:       ("Source Han Sans", "Helvetica Neue", "Helvetica"),
+        headings:       ("Source Han Sans"),
         code:           ("Source Han Mono"),
     )
 
@@ -87,7 +88,8 @@
         line(length: 100%, stroke: 1pt)
         v(-0.65em)
         set text(10pt, baseline: 0pt)
-        locate(loc => if calc.odd(loc.page()) {
+        context {
+            if calc.odd(here().page()) {
                 grid(
                     columns: (5fr, 1fr),
                     rows: (auto),
@@ -112,7 +114,7 @@
                         Copyright © #link(company_info.website_url)[#company_info.name]],
                 )
             }
-        )
+        }
     }
 
     let current_chapter() = locate(loc => {
@@ -168,7 +170,8 @@
         footer-descent: 2em,
         header: [
             #set text(10pt)
-            #locate(loc => if calc.odd(loc.page()) {
+            #context {
+                if calc.odd(loc.page()) {
                     grid(
                         columns: (1fr, 1fr),
                         rows: (100%),
@@ -201,7 +204,7 @@
                         ],
                     )
                 }
-            )
+            }
             #v(-0.65em)
             #line(length: 100%, stroke: 1pt)
         ],

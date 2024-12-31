@@ -1,5 +1,5 @@
-#import "tids.zh.typ": tids
-#import "@preview/gentle-clues:0.6.0": warning
+#import "tids.typ": tids
+#import "@preview/gentle-clues:1.1.0": *
 
 #let metadata = (
     title: [FXC1117 通量电容器],
