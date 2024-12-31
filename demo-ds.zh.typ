@@ -1,4 +1,4 @@
-#import "tids.typ": tids
+#import "tids.zh.typ": tids
 #import "@preview/gentle-clues:1.1.0": *
 
 #let metadata = (

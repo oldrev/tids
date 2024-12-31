@@ -17,7 +17,7 @@
     ), features: [], applications: [], desc: [], rev_list: [], doc: []) = {
 
     let fonts = (
-        serif:          ("Times New Roman", "Noto Serif", "Liberation Serif"),
+        serif:          ("Spectral Regular", "Times New Roman", "Noto Serif", "Liberation Serif"),
         sans:           ("Dejavu Sans", "Arial", "Noto Sans"),
         mono:           ("Consolas", "Noto Sans Mono"),
         text:           ("Arial", "Dejavu Sans"),

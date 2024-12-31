@@ -171,7 +171,7 @@
         header: [
             #set text(10pt)
             #context {
-                if calc.odd(loc.page()) {
+                if calc.odd(here().page()) {
                     grid(
                         columns: (1fr, 1fr),
                         rows: (100%),
