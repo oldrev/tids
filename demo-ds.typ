@@ -53,6 +53,8 @@
     ]),
 )
 
+#set text(lang: "en")
+
 #show: doc => tids(
     ds_metadata: metadata,
     features: features,
@@ -74,7 +76,8 @@
 == Specifications
 <Specifications>
 
-#table(
+#figure(
+table(
     columns: (1fr, auto, auto, auto, auto, auto, 1fr),
     align: (left,center,right,right,right,left,left,),
 
@@ -89,12 +92,15 @@
     [Low-Level Voltage], [$V_(upright("OL"))$], [—], [—], [0.5], [V], [—],
 
     [Output High-Level Current], [$I_(upright("OH"))$], [—], [20], [—], [mA], [—],
+),
+caption: "Your Awesome Table 1",
 )
 
 == Absolute Maximum Ratings
 <AbsoluteMaximumRatings>
 
-#table(
+#figure(
+table(
     columns: (auto, auto, auto, auto, auto, 1fr),
     align: (left,center,right,right,center,left),
 
@@ -103,6 +109,8 @@
     [Power Supply Voltage], [$V_(upright("IN"))$], [0], [30], [V],[],
 
     [Ambient Temperature], [$T_A$], [-25], [85], [°C],[],
+),
+caption: "Your Awesome Table 2",
 )
 
 #warning(title: "Warning")[
@@ -133,9 +141,17 @@
 
 #lorem(200)
 
-=== Typical Applications
+#page(flipped: true)[
 
-#lorem(200)
+
+    === Typical Applications
+
+    #figure(
+        rect(image("./assets/741.svg"), stroke: 0.5pt, height: 10cm), caption: "Typical Application"
+    )
+
+    #lorem(100)
+]
 
 === Design Requirements
 

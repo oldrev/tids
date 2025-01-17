@@ -26,7 +26,8 @@
         code:           ("Consolas", "Noto Sans Mono"),
     )
 
-    set text(font: fonts.text, size: 11pt)
+    set text(font: fonts.text, size: 10.5pt)
+    show strong: it => text(font: fonts.text_strong, it)
     show link: it => text(fill: rgb("#0000FF"))[#it]
     set page(paper: "a4")
 
@@ -130,39 +131,50 @@
     }
 
     let afterwords_page() = {
-
-        set page(numbering: none)
-
-        set heading(numbering: none)
-
         [
             = Indexing
 
             #box(height: auto, [
                 #columns(2, gutter: 30pt)[
+                    == Figures
                     #outline(
-                        title: [Figures],
+                        title: none,
                         target: figure.where(kind: image),
                     )
                     #colbreak()
+
+                    == Tables
                     #outline(
-                        title: [Tables],
+                        title: none,
                         target: figure.where(kind: table),
                     )
                 ]
-                #line(length: 100%, stroke: 1pt)
             ])
-
-            = Legal Disclaimer Notice
-
-            #lorem(30)
-
-            #lorem(50)
-
-            #lorem(30)
         ]
 
     }
+
+    let backcover_page() = [
+        #counter(page).update(n => n - 1)
+        #set page(
+            numbering: none,
+            header: none,
+            footer: none,
+        )
+        #show heading: it => it.body
+
+        #v(2.5cm)
+
+        #align(center)[
+            #heading(level: 1, outlined: false)[IMPORTANT NOTICE AND DISCLAIMER]
+        ]
+
+        #lorem(30)
+
+        #lorem(50)
+
+        #lorem(30)
+    ]
 
     set par(leading: 0.75em)
 
@@ -243,6 +255,11 @@
     box(height: auto,
         columns(2, gutter: 30pt)[
 
+#show figure.where(
+  kind: auto
+): set figure.caption(position: top)
+
+
 = Features
 <TitlePageFeatures>
 
@@ -273,15 +290,22 @@
     })
     ), caption: [Awesome Performance])
 
-    ])
+])
 
     pagebreak()
 
     outline_page()
 
     pagebreak()
+
     // document-body
     doc
 
+    pagebreak()
+
     afterwords_page()
+
+    pagebreak()
+
+    backcover_page()
 }

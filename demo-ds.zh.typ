@@ -1,5 +1,8 @@
-#import "tids.zh.typ": tids
 #import "@preview/gentle-clues:1.1.0": *
+#import "@preview/cetz:0.3.1": canvas
+#import "@preview/cetz-plot:0.1.0": plot, chart
+#import "tids.zh.typ": tids
+
 
 #let metadata = (
     title: [FXC1117 通量电容器],
@@ -10,7 +13,7 @@
 #let features = [
     - 容量： 1.21 GC
     - 输入电压： 88 kV
-    - 封装：提供 QFN-24 和 BGA-19999 封装
+    - 封装：提供 QFN-24 和 BGA-9999 封装
     - 材料：先进钽合金半导体
     - 频率响应超过 1.21 PHz
     - 温度范围： -40°C 到 65535°C
@@ -30,7 +33,7 @@
     - 军事渗透用人形终结者
 
     #figure(
-        rect(image("./assets/741.svg"), stroke: 0.5pt), caption: "典型应用电路"
+        rect(image("./assets/741.svg"), stroke: 0.5pt), caption: "典型应用电路", placement: bottom,
     )
 ]
 
@@ -38,6 +41,35 @@
 通量电容器是一项革命性的电子技术，利用先进的合金和绝缘材料，使其能够在极端条件下运作。其高容量和高工作电压使其成为时间旅行技术和能源转换领域的理想选择。
 
 此外，通量电容器还可以应用于电子设备优化、空间变形技术和量子通信等领域。其稳定性和频率响应使其成为未来电子元件领域中的创新产物。
+
+#figure(
+table(
+    columns: (auto, auto, 1fr),
+    align: (col, row) => (left,left,left).at(col),
+    table.header([*零件编号*], [*封装*], [*主体尺寸（标称）*]),
+
+    [FXC1117-A], [BGA-9999], [5mm × 5mm],
+    [FXC1117-B], [QFN-24], [5mm × 5mm],
+),
+caption: "设备信息",
+placement: bottom,
+)
+
+#figure(rect(height: 30%,
+    canvas(length: 0.75cm, {
+        plot.plot(size: (8, 6),
+        x-tick-step: 1,
+        x-ticks: ((-calc.pi, $-pi$), (0, $0$), (calc.pi, $pi$)),
+        y-tick-step: 1,
+        {
+            plot.add(
+            domain: (-calc.pi, calc.pi), x => calc.sin(x * 1rad))
+        })
+    })
+    ), caption: [超级性能], placement: bottom)
+
+
+
 ]
 
 #let rev_list = (
@@ -53,6 +85,8 @@
         - #lorem(18)
     ]),
 )
+
+#set text(lang: "zh")
 
 #show: doc => tids(
     ds_metadata: metadata,
@@ -75,7 +109,8 @@
 == 电气规格
 <电气规格>
 
-#table(
+#figure(
+table(
     columns: (auto, auto, auto, auto, auto, auto, 1fr),
     align: (col, row) => (left,center,right,right,right,left,left,).at(col),
 
@@ -90,13 +125,16 @@
     [控制信号低电平输出电压], [$V_(upright("OL"))$], [—], [—], [0.5], [V], [—],
 
     [控制信号输出高电平拉电流], [$I_(upright("OH"))$], [—], [20], [—], [mA], [—],
+),
+caption: "你的超赞表格 1",
 )
 
 == 绝对最大额定值
 <绝对最大额定值>
-在超过绝对最大额定值范围内的情况下使用设备可能造成设备永久损坏。
+在超过绝对最大额定值范围内的情况下使用设备可能造成设备永久损坏#footnote[当然我们都希望你把产品损坏了买新的。]。
 
-#table(
+#figure(
+table(
     columns: (auto, auto, auto, auto, auto, 1fr),
     align: (col, row) => (left,center,right,right,center,left).at(col),
 
@@ -105,6 +143,8 @@
     [电源供电电压], [$V_(upright("IN"))$], [0], [30], [V],[],
 
     [环境温度], [$T_A$], [-25], [85], [°C],[],
+),
+caption: "你的超赞表格 1",
 )
 
 #warning(title: "警告")[
@@ -135,9 +175,18 @@
 
 #lorem(200)
 
-=== 典型应用
 
-#lorem(200)
+#page(flipped: true)[
+
+    === 典型应用
+
+    #figure(
+        rect(image("./assets/741.svg"), stroke: 0.5pt, height: 10cm), caption: "典型应用"
+    )
+
+    #lorem(100)
+
+]
 
 === 推荐外围设备
 
