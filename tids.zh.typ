@@ -150,9 +150,9 @@
                 align: horizon,
                 column-gutter: 3pt,
                 row-gutter: 0pt,
-                image(icon, height: 0.3in),
+                image(icon, height: 6.5mm),
                 align(left, {
-                    set par(leading: 5pt)
+                    set par(leading: 1mm)
                     set text(9pt, fill: black)
                     body
                 })
@@ -161,7 +161,7 @@
     }
 
     let cover_page() = page(
-        margin: (top: 0.3in),
+        margin: (top: 16mm, left: 1in, right: 15mm),
         header: none,
         header-ascent: 0%+0pt,
         footer: cover_page_footer
@@ -171,73 +171,80 @@
   kind: auto
 ): set figure.caption(position: top)
 
-#align(center, grid(
-    columns: (auto, auto, auto, auto, auto, auto),
-    rows: (auto),
-    gutter: 15pt,
-    align: center,
-
-    cover_page_icon(icon: "assets/icons/folder.svg", url: "https://github.com/oldrev", body: [产品#linebreak()目录]),
-    cover_page_icon(icon: "assets/icons/cart.svg", url: "https://github.com/oldrev", body: [样品#linebreak()购买]),
-    cover_page_icon(icon: "assets/icons/tools.svg", url: "https://github.com/oldrev", body: [工具与#linebreak()软件]),
-    cover_page_icon(icon: "assets/icons/doc.svg", url: "https://github.com/oldrev", body: [技术#linebreak()文档]),
-    cover_page_icon(icon: "assets/icons/doc.svg", url: "https://github.com/oldrev", body: [支持与#linebreak()社区]),
-    cover_page_icon(icon: "assets/icons/doc.svg", url: "https://github.com/oldrev", body: [参考#linebreak()设计]),
-))
-
-#v(0.3in)
-
-#grid(
-    inset: 0pt,
-    columns: (1fr, 1fr),
-    rows: (auto),
-    gutter: 0pt,
-    [
-        #set align(left)
-        #link(company_info.website_url)[#image(company_info.logo, height: 28pt)]
-    ],
-    [
-        #set align(right)
-        #link(ds_metadata.product_url)[#ds_metadata.product]
-        #linebreak()
-        #lastest_rev.rev - #lastest_rev.date
-    ],
-)
-
 #grid(
     columns: 1,
-    row-gutter: 5pt,
-    [#line(length: 100%, stroke: 1pt + black)],
-    [
-        #set text(18pt, font: fonts.headings, weight: "medium")
-        #align(center, ds_metadata.title)
-    ],
-    [#line(length: 100%, stroke: 1pt + black)],
+    rows: (auto, auto, auto, auto, 1fr),
+
+    align(center, grid(
+        columns: (auto, auto, auto, auto, auto, auto),
+        rows: (auto),
+        gutter: 15pt,
+        align: center,
+
+        cover_page_icon(icon: "assets/icons/folder.svg", url: "https://github.com/oldrev", body: [产品#linebreak()目录]),
+        cover_page_icon(icon: "assets/icons/cart.svg", url: "https://github.com/oldrev", body: [样品#linebreak()购买]),
+        cover_page_icon(icon: "assets/icons/tools.svg", url: "https://github.com/oldrev", body: [工具与#linebreak()软件]),
+        cover_page_icon(icon: "assets/icons/doc.svg", url: "https://github.com/oldrev", body: [技术#linebreak()文档]),
+        cover_page_icon(icon: "assets/icons/doc.svg", url: "https://github.com/oldrev", body: [支持与#linebreak()社区]),
+        cover_page_icon(icon: "assets/icons/doc.svg", url: "https://github.com/oldrev", body: [参考#linebreak()设计]),
+    )),
+
+    v(5mm),
+
+    grid(
+        row-gutter: 3pt,
+        rows: (auto, auto),
+        grid(
+            columns: (1fr, 1fr),
+            rows: (auto),
+            gutter: 0pt,
+            [
+                #set align(left)
+                #link(company_info.website_url)[#image(company_info.logo, height: 28pt)]
+            ],
+            [
+                #set align(right)
+                #link(ds_metadata.product_url)[*#ds_metadata.product*]
+                #linebreak()
+                #lastest_rev.rev - #lastest_rev.date
+            ],
+        ),
+        line(length: 100%, stroke: 1pt + black),
+    ),
+
+    grid(
+        columns: 1,
+        row-gutter: 5pt,
+        [#line(length: 100%, stroke: 1pt + black)],
+        [
+            #set text(18pt, font: fonts.headings, weight: "medium")
+            #align(center, ds_metadata.title)
+        ],
+        [#line(length: 100%, stroke: 1pt + black)],
+    ),
+
+    box(height: auto, inset: (x: 0pt, y: 3mm),
+        columns(2, gutter: 30pt)[
+
+    = 特性
+    <TitlePageFeatures>
+
+    #features
+
+    = 用途
+    <TitlePageApplications>
+
+    #applications
+
+    #colbreak()
+
+    = 产品简介
+    <产品简介>
+
+    #desc
+
+    ])
 )
-
-#v(0.3em)
-
-#box(height: auto,
-    columns(2, gutter: 30pt)[
-
-= 特性
-<TitlePageFeatures>
-
-#features
-
-= 用途
-<TitlePageApplications>
-
-#applications
-
-#colbreak()
-
-= 产品简介
-<产品简介>
-
-#desc
-
-])
     ]
 
     let backcover_page() = [
@@ -307,7 +314,7 @@
                         ],
                         [
                             #set align(right)
-                            #link(ds_metadata.product_url)[#ds_metadata.product]
+                            #link(ds_metadata.product_url)[*#ds_metadata.product*]
                             #linebreak()
                             #lastest_rev.rev - #lastest_rev.date
                         ],
@@ -319,7 +326,7 @@
                         gutter: 3pt,
                         [
                             #set align(left)
-                            #link(ds_metadata.product_url)[#ds_metadata.product]
+                            #link(ds_metadata.product_url)[*#ds_metadata.product*]
                             #linebreak()
                             #lastest_rev.rev - #lastest_rev.date
                         ],
