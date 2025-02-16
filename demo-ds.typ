@@ -179,6 +179,10 @@ caption: "Your Awesome Table 2",
 
 = Mechanical, Packaging, and Orderable Information
 
+#figure(
+    rect(image("assets/dimension.svg"), stroke: 0.5pt, inset: 5%), caption: "Dimensions",
+)
+
 #lorem(30)
 
 #lorem(30)

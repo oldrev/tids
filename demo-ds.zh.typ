@@ -210,6 +210,10 @@ caption: "你的超赞表格 1",
 
 = 机械外形、封装与订购信息
 
+#figure(
+    rect(image("assets/dimension.svg"), stroke: 0.5pt, inset: 15pt), caption: "机械尺寸",
+)
+
 #lorem(30)
 
 #lorem(30)
